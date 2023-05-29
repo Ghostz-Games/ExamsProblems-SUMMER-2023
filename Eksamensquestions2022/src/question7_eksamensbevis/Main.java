@@ -21,7 +21,7 @@ public class Main {
             //diploma.addCourse(course4);
 
             System.out.println(diploma.getAverage());
-            System.out.println(diploma.toString());
+            System.out.println(diploma);
         }catch(Exception e){
             System.out.println("not valid grade");
         }
